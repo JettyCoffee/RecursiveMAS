@@ -117,7 +117,7 @@ def normalize_outer_adapter_type(adapter_type: str) -> str:
         raise ValueError(f"Unsupported outer adapter_type: {adapter_type}")
     return OUTER_ADAPTER_TYPE
 
-
+# 内部适配器：在同一模型内的层之间进行适配
 class Adapter(nn.Module):
     def __init__(self, hidden_size: int, adapter_type: str) -> None:
         super().__init__()
@@ -135,7 +135,7 @@ class Adapter(nn.Module):
         out = x + out
         return self.post_ln(out)
 
-
+# 外部适配器：在不同模型之间进行适配，例如从语言模型到视觉模型
 class CrossModelAdapter(nn.Module):
     def __init__(self, in_dim: int, out_dim: int, adapter_type: str) -> None:
         super().__init__()

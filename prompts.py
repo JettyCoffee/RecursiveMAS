@@ -7,6 +7,8 @@ from inference_utils.reflector_tool_notes import system_prompt as REFLECTOR_TOOL
 SYSTEM_PROMPT = "You are a helpful assistant."
 DELIBERATION_SYSTEM_PROMPT = REFLECTOR_TOOL_SYSTEM_PROMPT
 
+# 特殊Token实现向量注入
+
 PLANNER_SLOT = "<<LATENT_PLANNER_SLOT>>"
 REFINED_SLOT = "<<LATENT_REFINED_SLOT>>"
 FEEDBACK_SLOT = "<<LATENT_FEEDBACK_SLOT>>"
