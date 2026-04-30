@@ -16,6 +16,7 @@ Scaling agent collaboration through latent-space recursion.
     <a href="https://github.com/RecursiveMAS/RecursiveMAS"><img src="https://img.shields.io/badge/Github-RecursiveMAS-2D8CFF.svg?logo=github" alt="RecursiveMAS"></a>
     <a href="https://huggingface.co/RecursiveMAS/collections"><img src="https://img.shields.io/badge/Huggingface-Collections-FFD21E.svg?logo=huggingface" alt="Huggingface Collection"></a>
     <a href="https://huggingface.co/RecursiveMAS/models"><img src="https://img.shields.io/badge/Huggingface-Models-FFD21E.svg?logo=huggingface" alt="Huggingface Model"></a>
+    <a href="https://x.com/Jiaru_Zou/status/2049551828296389118"><img src="https://img.shields.io/badge/Twitter-Coverage-1DA1F2.svg?logo=x" alt="Twitter Coverage"></a>
 </p>
 
 
